@@ -15,7 +15,7 @@ from langchain_groq import ChatGroq
 load_dotenv()
 
 st.set_page_config(page_title="Telecom RAG Assistant", page_icon="📄", layout="wide")
-st.title("📄 PDF RAG Assistant")
+st.title("📄 Telecom RAG Assistant")
 st.write("Ask questions about your PDF and get answers grounded in the document.")
 
 # ---------- Helpers ----------
