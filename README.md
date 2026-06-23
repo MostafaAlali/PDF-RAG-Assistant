@@ -150,11 +150,8 @@ Given a telecom policy document, you could ask:
 "What is the data overage charge for premium plans?"
 → Answer: "The data overage charge for premium plans is $10 per 1GB..."
 
-"Which regions are eligible for the new 5G rollout?"
-→ Answer: "According to the 5G rollout schedule, the following regions..."
-
 "What are the SLA uptime guarantees?"
-→ Answer: "The SLA guarantees 99.9% uptime for enterprise customers and 99.5% for standard customers."
+→ Answer: " The provided context does not mention any specific SLA (Service Level Agreement) uptime guarantees. It focuses on data management policies, such as throttling speeds after high-speed data limits, data rollover, add-on packs, and fair use policies for "unlimited" plans. For SLA-related details, further information would be required."
 ```
 
 ---
@@ -270,11 +267,5 @@ pdf-rag-assistant/
 └── README.md
 ```
 
-Then in `app.py`:
-```python
-from src.embeddings import get_embeddings
-from src.vector_store import build_vector_store
-from src.chains import build_chain
-```
 
 This modular approach improves readability, testability, and is what Meta engineers expect. Would you like me to refactor the README for a multi-file structure, or do you have specific questions about the code organization? i need be make it markdown for github
