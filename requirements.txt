@@ -2,12 +2,12 @@ streamlit
 python-dotenv
 langchain
 langchain-community
-langchain-text-splitters
-langchain-huggingface
-langchain-chroma
 langchain-core
+langchain-chroma
+langchain-huggingface
 langchain-groq
-chromadb
 sentence-transformers
+chromadb
 pypdf
-protobuf<5
+transformers
+torch
