@@ -1,5 +1,5 @@
 
-# 📄 PDF RAG Assistant
+# 📄 Telecom RAG Assistant
 
 **A production-ready Retrieval-Augmented Generation (RAG) system for intelligent document Q&A powered by LLMs.**
 
